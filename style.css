@@ -16,6 +16,9 @@ body {
   padding: $base-spacing-unit;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1485119502162-016e4409beab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+
+  background-size: cover;
 }
 
 h1,
@@ -27,6 +30,7 @@ h6,
 p {
   margin: 0;
   text-align: center;
+  color: white;
 }
 
 .container {
@@ -38,6 +42,7 @@ p {
   justify-content: center;
   /* align-items: center; */
   min-height: 100vh;
+  /* font-color:white; */
 }
 
 .table {
@@ -176,8 +181,6 @@ select {
 /*style the items (options), including the selected item:*/
 .select-items div,
 .select-selected {
-  /* color: #ffffff; */
-  /* padding: 8px 16px; */
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
@@ -211,13 +214,18 @@ select {
   display: flex;
   justify-content: space-around;
   font-size: 16px;
+  color: white;
 }
 .card div input {
+  color: white;
   font-size: 20px;
 }
-
+input {
+  color: white;
+}
 .image {
   display: flex;
   justify-content: center;
   margin: auto;
+  color: white;
 }
