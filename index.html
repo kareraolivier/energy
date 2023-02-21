@@ -1,0 +1,230 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Homele</title>
+</head>
+
+<body>
+    <h1>Quiz</h1>
+    <p><b>Determination of the best source of energy to be used depending<br /> on the overall parameters for
+            sustainability</b></p>
+    <div class="container">
+
+        <div class="table">
+            <div class="table-header">
+                <div class="header__item"><a id="name" class="filter__link" href="#">Parameters</a></div>
+                <div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Hydro</a>
+                </div>
+                <div class="header__item"><a id="draws" class="filter__link filter__link--number" href="#">Solar</a>
+                </div>
+                <div class="header__item"><a id="losses" class="filter__link filter__link--number" href="#">Wind</a>
+                </div>
+                <div class="header__item"><a id="total" class="filter__link filter__link--number" href="#">Nuclear</a>
+                </div>
+            </div>
+            <div class="table-content">
+                <div class="table-row">
+                    <div class="table-data">Efficiency</div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="hf">
+                                <option value="0">Select ......:</option>
+                                <option value="3">High</option>
+                                <option value="2">Medium</option>
+                                <option value="1">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="sf">
+                                <option value="0">Select ......:</option>
+                                <option value="3">High</option>
+                                <option value="2">Medium</option>
+                                <option value="1">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="wf">
+                                <option value="0">Select ......:</option>
+                                <option value="3">High</option>
+                                <option value="2">Medium</option>
+                                <option value="1">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="nf">
+                                <option value="0">Select ......:</option>
+                                <option value="3">High</option>
+                                <option value="2">Medium</option>
+                                <option value="1">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-data">Stability</div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="hs">
+                                <option value="0">Select ......:</option>
+                                <option value="2">Stable</option>
+                                <option value="1">Non_stable</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="ss">
+                                <option value="0">Select ......:</option>
+                                <option value="2">Stable</option>
+                                <option value="1">Non_stable</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="ws">
+                                <option value="0">Select ......:</option>
+                                <option value="2">Stable</option>
+                                <option value="1">Non_stable</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="ns">
+                                <option value="0">Select ......:</option>
+                                <option value="2">Stable</option>
+                                <option value="1">Non_stable</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-data">Production capacity</div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="hp">
+                                <option value="0">Select ......:</option>
+                                <option value="3">High</option>
+                                <option value="2">Medium</option>
+                                <option value="1">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="sp">
+                                <option value="0">Select ......:</option>
+                                <option value="3">High</option>
+                                <option value="2">Medium</option>
+                                <option value="1">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="wp">
+                                <option value="0">Select ......:</option>
+                                <option value="3">High</option>
+                                <option value="2">Medium</option>
+                                <option value="1">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="np">
+                                <option value="0">Select ......:</option>
+                                <option value="3">High</option>
+                                <option value="2">Medium</option>
+                                <option value="1">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-data">energy security</div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="he">
+                                <option value="0">Select ......:</option>
+                                <option value="2">yes</option>
+                                <option value="1">No</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="se">
+                                <option value="0">Select ......:</option>
+                                <option value="2">yes</option>
+                                <option value="1">No</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="we">
+                                <option value="0">Select ......:</option>
+                                <option value="2">yes</option>
+                                <option value="1">No</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-data">
+                        <div class="custom-select">
+                            <select id="ne">
+                                <option value="">Select ......:</option>
+                                <option value="2">yes</option>
+                                <option value="1">No</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <button class="button" id="button">Cheack</button> -->
+
+            <div class="question">
+                <h3>For the above results? What is the best choisce for source of energy</h3>
+                <div class="card">
+
+                    <div><input type="radio" name="text" id="checkone"><b>Hydro</b></input></div>
+                    <div><input type="radio" name="text" id="checktwo"><b>Solar</b></input></div>
+                    <div><input type="radio" name="text" id="checkthree"><b> Wind</b></input></div>
+                    <div><input type="radio" name="text" id="checkfour"><b>Nuclear</b></input></div>
+
+
+                </div>
+                <button class="button" id="button" ​ onclick="check()">Cheack</button>
+                <div class="image" id="image">
+                </div>
+                <div class="image" id="noimage">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="Script.js"></script>
+
+
+</html>
