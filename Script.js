@@ -305,9 +305,9 @@ const noimage = document.getElementById("noimage");
 
 function check() {
   if (document.getElementById("checkone").checked) {
-    image.innerHTML = `<div><h2>You answered questions correctly</h2>
-    <img src="./image/perfect-young-dylan bbb.gif" alt="no" width="250" class="image" >
-    </div>
+    image.innerHTML = `<div><h2>You answered questions incorrectly</h2>
+   <img src="./image/bart-simpson-the-simpsons.gif" alt="ok" width="250" class="image">
+ </div>   
     `;
   } else if (document.getElementById("checktwo").checked) {
     image.innerHTML = `<div><h2>You answered questions incorrectly</h2>
@@ -318,9 +318,9 @@ function check() {
    <img src="./image/bart-simpson-the-simpsons.gif" alt="ok" width="250" class="image">
  </div>   `;
   } else if (document.getElementById("checkfour").checked) {
-    image.innerHTML = `<div><h2>You answered questions incorrectly</h2>
-   <img src="./image/bart-simpson-the-simpsons.gif" alt="ok" width="250" class="image">
- </div>   `;
+    image.innerHTML = `<div><h2>You answered questions correctly</h2>
+    <img src="./image/perfect-young-dylan bbb.gif" alt="no" width="250" class="image" >
+    </div>`;
   } else {
     noimage.innerHTML = `<h2>You have not answered any questions</h2>
   `;
