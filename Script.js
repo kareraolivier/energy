@@ -2,8 +2,8 @@ const select = document.getElementById("hf");
 
 select.addEventListener("change", function handleChange(event) {
   console.log(event.target.value); // 👉️ get selected VALUE
-  let num = event.target.value;
-  if (num == 3) {
+  let num1 = event.target.value;
+  if (num1 == 3) {
     select.style.color = "green";
   } else {
     select.style.color = "red";
@@ -333,3 +333,12 @@ function uncheck() {
   document.getElementById("checkthree").checked = false;
   document.getElementById("checkfour").checked = false;
 }
+
+let hydro = document.getElementsByClassName("dataone");
+let nuclear = document.getElementsByClassName("datafour");
+let solar = document.getElementsByClassName("datatwo");
+let wind = document.getElementsByClassName("datathree");
+hydro.innerHTML = `<h3>${num.value + 3}</h3>`;
+nuclear.innerHTML = `<h3>${select.value + 4}</h3>`;
+solar.innerHTML = `<h3>${select.value + 6}</h3>`;
+wind.innerHTML = `<h3>${select.value + 40}</h3>`;

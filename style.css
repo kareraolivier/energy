@@ -140,11 +140,16 @@ select {
 .custom-select {
   position: relative;
   font-family: Arial;
+  width: 100%;
+  font-size: 16px;
+  height: 100%;
+  padding: 0.1rem 0;
 }
 
-/* .custom-select select {
-  display: none; /*hide original SELECT element:*/
-} */
+.custom-select select {
+  font-size: 18px;
+  background-color: #c9e3fb;
+}
 
 /* .select-selected {
   background-color: DodgerBlue;
@@ -198,21 +203,21 @@ select {
 .same-as-selected {
   /* background-color: rgba(0, 0, 0, 0.1); */
 }
-.question{
+.question {
   padding: 2rem 0;
 }
-.card{
+.card {
   padding: 2rem 0;
-  display:flex;
-  justify-content:space-around;
-  font-size:16px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
 }
-.card div input{
-  font-size:20px;
+.card div input {
+  font-size: 20px;
 }
 
-.image{
-  display:flex;
-  justify-content:center;
-  margin:auto;
+.image {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
